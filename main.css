@@ -2,8 +2,54 @@ html, body {
     height: 100%;
 }
 
+body {
+    font: 16px / 1.42 "Roboto", Arial, sens-serif;
+    color: #212121;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 .hero {
     height: 100vh;
     min-height: 650px;
     background: url(./images/bg/hero.jpg) center center / cover no-repeat;
+    position: relative;
+}
+
+.header {
+    width: 1290px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mail {
+    text-decoration: none;
+    text-align: center;
+    color: inherit;
+}
+
+.mail__title {
+    margin-bottom: 3px;
+}
+
+.mail__content {
+    background: #212121;
+    padding: 5px 10px;
+    color: #ffbc2f;
+}
+
+.fade-slider {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1140px;
+    height: 72%;
+}
+
+.fade-slider__item {
+    background: url(./images/content/hero/slider_pic_1.png) center center / contain no-repeat;
+    height: 100%;
 }
