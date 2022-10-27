@@ -176,6 +176,11 @@ ul > li {
     align-items: center;
     justify-content: center;
     position: relative;
+    overflow: hidden;
+}
+
+.products__item:hover .products__desc {
+    transform: translateY(0%);
 }
 
 .products__desc {
@@ -183,11 +188,16 @@ ul > li {
     bottom: 0;
     left: 0;
     right: 0;
+    padding: 23px 30px;
     background: rgba(35, 35, 35, 0.8);
     font-size: 15px;
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(100%);
+    transition: transform 0.3s;
 }
-
 
 .products__img {
     display: block;
@@ -195,9 +205,24 @@ ul > li {
     min-height: 100%;
 }
 
+.products__desc-text {
+    text-align: center;
+    margin-bottom: 18px;
+}
+
 .btn {
     text-transform: uppercase;
     font-family: var(--titleFont);
     font-size: 24px;
-    padding: 2px ;
+    padding: 2px 30px;
+    background: var(--black);
+    color: var(--yellow);
+    display: inline-block;
+    text-decoration: none;
 }
+
+.btn:hover {
+    color: #fff;
+    background: var(--red);
+}
+
