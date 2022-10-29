@@ -348,3 +348,16 @@ ul > li {
 .collections__desc {
     margin-bottom: 28px;
 }
+
+.footer {
+    margin-bottom: 115px;
+}
+
+.site-menu__section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-menu__col {
+    
+}
