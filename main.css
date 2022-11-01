@@ -250,7 +250,7 @@ ul > li {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    /* margin: 0; */
+    margin: 0;
 }
 
 .lined-text__word {
@@ -349,7 +349,7 @@ ul > li {
 }
 
 .products__item--color-black .products__price{
-    border-block-color: var(--yellow);
+    background: var(--yellow);
 }
 
 .products__item--color-black .products__price-amount{
