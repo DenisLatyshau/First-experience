@@ -15,7 +15,7 @@
 
 .wrapper {
     overflow: hidden;
-    min-width: 1310px;
+    min-width: 1440px;
 }
 
 .container {
@@ -82,7 +82,7 @@ ul > li {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 1140px;
+    width: 1180px;
     height: 72%;
 }
 
@@ -349,7 +349,7 @@ ul > li {
 }
 
 .products__item--color-black .products__price{
-    background: var(--yellow);
+    border-bottom-color: var(--yellow);
 }
 
 .products__item--color-black .products__price-amount{
